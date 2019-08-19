@@ -1,7 +1,10 @@
-#Google AdMob integration in native android
-This tutorial is going to walk yoo through the integration of Google’s monitization sdk or otherwise known as Google AdMob, into your native android application, which in-turn help you to generate revenue by publishing your application on Google Play Store.
+## Google AdMob integration in native android
+
+# This tutorial is going to walk yoo through the integration of Google’s monitization sdk or otherwise known as Google AdMob, into your native android application, which in-turn help you to generate revenue by publishing your application on Google Play Store.
+
 So let’s get going.
-Setup
+
+# Setup
 1.	Create account on AdMob’s  website if not created already. Go to the link below and follow the instructions. 
 Link: https://admob.google.com/home/?gclid=Cj0KCQjw4s7qBRCzARIsAImcAxY00nLKpGVUP9fu4uayj9r8ntR29S_s7OSOF5htewllezBMyd5EqyIaAjUcEALw_wcB
 2.	If already have an account then login and create a new application to connect your application to admob account. Go to link below and follow the instructions.
@@ -23,7 +26,7 @@ classpath 'com.google.gms:google-services:4.0.1'
 In your  App build.gradle place the following dependencies and sync your project.
 implementation 'com.google.android.gms:play-services-ads:11.8.0'
 
-Implementation
+# Implementation
 In your activity_man.xml, place the following UI element to view your banner AD and replace the adUnitID with your Ad Unit ID
 <com.google.android.gms.ads.AdView
     android:id="@+id/adView"
